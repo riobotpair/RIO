@@ -89,7 +89,7 @@ async function connectToWA() {
 
       const up = `RIO-MD connected ✅\n\nPREFIX: ${prefix}`;
       await rio.sendMessage(ownerNumber[0] + "@s.whatsapp.net", {
-        image: { url: `https://github.com/riobotpair/RIO/blob/main/images/Vmake1754198681084.png` },
+        image: { url: `https://raw.githubusercontent.com/riobotpair/RIO/main/images/Vmake1754198681084.png` },
         caption: up
       });
 
